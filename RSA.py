@@ -3,6 +3,7 @@ import primes
 import math
 
 
+
 def rsa_example():
     print("Calculating primes... This may take a while...")
     p = primes.findAPrime(pow(2, 2047), pow(2, 2048))
